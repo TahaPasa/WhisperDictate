@@ -28,6 +28,19 @@ The project also doubled as a hands-on test of my own skills with **Claude Code*
 
 ---
 
+### 📸 Screenshots
+
+| Main Menu | Language Selection | Model Selection |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/44ff626f-8c51-4269-bb86-3579a2814b8a" width="240"> | <img src="https://github.com/user-attachments/assets/8702ba75-0530-4544-9415-a066af0b02c3" width="240"> | <img src="https://github.com/user-attachments/assets/55d4b68d-5c50-4e52-b070-c6f592b92e96" width="240"> |
+
+| Recording Notification | Dictation Notification |
+| :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/1da224d1-0fb0-47f3-82d5-f8f5fecd378b" width="240"> | <img src="https://github.com/user-attachments/assets/57c45298-65c1-427f-af09-90b3b2e3f335" width="240"> |
+
+---
+
+
 ## Quick start
 
 ```bash
