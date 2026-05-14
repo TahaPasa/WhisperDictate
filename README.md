@@ -1,4 +1,7 @@
 # WhisperDictate
+<img width="216" height="216" alt="AppIcon" src="https://github.com/user-attachments/assets/06bb6e0d-b9c6-47b4-9a79-943dfa0e2221" />
+
+
 
 A small, private dictation tool for macOS. Press **⌘⌥D**, speak, press it again — the transcribed text lands in your clipboard. No cloud, no account, no agreements.
 
