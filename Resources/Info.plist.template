@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <!-- Bundle identity -->
+    <key>CFBundleIdentifier</key>
+    <string>com.whisperdictate.app</string>
+    <key>CFBundleName</key>
+    <string>WhisperDictate</string>
+    <key>CFBundleExecutable</key>
+    <string>WhisperDictate</string>
+    <key>CFBundlePackageType</key>
+    <string>APPL</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0.0</string>
+
+    <!-- macOS 13+ required for async/await and AVAudioEngine improvements -->
+    <key>LSMinimumSystemVersion</key>
+    <string>13.0</string>
+
+    <!-- Accessory app: no Dock icon, no main window, lives only in the menu bar -->
+    <key>LSUIElement</key>
+    <true/>
+
+    <!-- ONLY privacy key we need: microphone for speech capture.
+         This string is shown to the user in the TCC permission dialog. -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>WhisperDictate captures your voice locally and transcribes it with whisper.cpp. Audio never leaves this Mac.</string>
+
+    <key>NSHighResolutionCapable</key>
+    <true/>
+
+    <key>CFBundleIconFile</key>
+    <string>AppIcon</string>
+
+    <key>NSPrincipalClass</key>
+    <string>NSApplication</string>
+</dict>
+</plist>

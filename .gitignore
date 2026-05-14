@@ -1,0 +1,63 @@
+# ── macOS ──────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ── Swift / SwiftPM ─────────────────────────────────────────────────────────
+.build/
+.swiftpm/
+Package.resolved
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+xcuserdata/
+*.xcuserstate
+
+# ── App build artefacts ─────────────────────────────────────────────────────
+dist/
+WhisperDictate.app/
+Resources/bin/whisper-cli
+Resources/AppIcon.icns
+
+# ── whisper.cpp vendored copy: keep sources, ignore artefacts ──────────────
+whisper.cpp/build/
+whisper.cpp/.git
+whisper.cpp/.github/
+whisper.cpp/models/*.bin
+whisper.cpp/models/*.mlmodelc/
+whisper.cpp/models/ggml-*.bin
+!whisper.cpp/models/download-ggml-model.sh
+!whisper.cpp/models/convert-h5-to-ggml.py
+
+# ── Compiled object files ──────────────────────────────────────────────────
+*.o
+*.a
+*.so
+*.dylib
+
+# ── Runtime data — never commit ────────────────────────────────────────────
+*.log
+*.wav
+*.txt
+*.bin
+*.gguf
+
+# ── Local-only configuration ───────────────────────────────────────────────
+.env
+.env.local
+*.local.*
+
+# ── Editor / IDE ───────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ── R / RStudio leftovers ──────────────────────────────────────────────────
+.Rhistory
+.Rapp.history
+.RData
+.Ruserdata
